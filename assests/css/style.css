@@ -9,8 +9,62 @@ header{
 }
 /*apply style to the h1 tag in the <header>*/
 header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  color: #fce138;
-  margin: 0;
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
 }
+header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+/*nav element moved to right side i.e. "float"*/
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+/*styled list*/
+header nav ul li {
+    display: inline;
+  }
+/*styled attributes in header list*/
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+/*added padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+/*styled footer section*/
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+/*apply style to left h2*/
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+/*apply style to footer container*/
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+/*apply style to footer a*/
+footer a {
+    color: 024e76;
+}
+/*tell browser to ignore padding in overall width*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
